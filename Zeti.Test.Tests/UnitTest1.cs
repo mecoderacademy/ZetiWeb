@@ -12,17 +12,19 @@ namespace Zeti.Test.Tests;
 
 public class InvoiceControllerTest
 {
+
     private IVehicleService _vehicleService;
     private JsonDisplayService _displayService;
     private IJourneyService _journeyService;
     private InvoiceController _invoiceController;
     private HttpClient _client;
-    
+
+    [SetUp]
     public void Setup()
     {
         var mockHttpMessageHandler = new MockHttpMessageHandler();
         _client = mockHttpMessageHandler.ToHttpClient();
-        _client.BaseAddress = new Uri("http://localhost");
+        _client.BaseAddress = new Uri("http://localhost/");
         _vehicleService = new VehicleService(_client, getConfig());
         _journeyService = new JorneyService();
         _displayService = new JsonDisplayService();
@@ -51,7 +53,7 @@ public class InvoiceControllerTest
     [Test]
     public async Task InvoiceController_InvalidUrl_ReturnsBadRequestMessege()
     {
-     
+
         var result = await _invoiceController.CalculateBill(new BillCalculationRequest()) as BadRequestObjectResult;
 
         Assert.That(result?.Value, Is.EqualTo("Invalid calculation request"));
@@ -59,7 +61,7 @@ public class InvoiceControllerTest
 
 
     [Test]
-    public async Task InvoiceController_InvalidUr_ReturnsBadRequestMessege()
+    public async Task InvoiceController_ValidUrl_ReturnsCorrectInvoce()
     {
         var billRequest = new BillCalculationRequest()
         {
@@ -69,21 +71,20 @@ public class InvoiceControllerTest
             LisencePlates = new List<string> { "CBDH 789", "86532 AZE" },
             UploadType = "json"
         };
-        
-        var result = await _invoiceController.CalculateBill(billRequest) as ContentResult;
 
+        var result = await _invoiceController.CalculateBill(billRequest) as ContentResult;
+       // unfortunately this will always fail due to randomisation of imvoice number
         Assert.That(result?.Content, Is.EqualTo(JsonInvoiceResultContent()));
     }
     private IConfiguration getConfig()
     {
         return new ConfigurationBuilder()
-    .AddInMemoryCollection(new Dictionary<string, string>
-    {
-        // Add your configuration key-value pairs here
+        .AddInMemoryCollection(new Dictionary<string, string?>
+        {
         {"apiBaseAddress", "http://localhost/"}
-    })
+        })
     .Build();
-}
+    }
 
     private void SetUpRequests(MockHttpMessageHandler mockHttpMessageHandler)
     {
@@ -117,6 +118,7 @@ public class InvoiceControllerTest
 
     private string JsonInvoiceResultContent()
     {
-        return "[{\"Make\":\"Jaguar\",\"LisencePlate\":\"CBDH 789\",\"TotalMiles\":100.0,\"TotalCost\":20.7,\"InvoiceDate\":\"11/28/2023 12:00:00AM\",\"InvoiceNumber\":0.0,\"ReadingDateFrom\":null,\"ReadingDateTo\":null},{\"Make\":\"Tesla\",\"LisencePlate\":\"86532 AZE\",\"TotalMiles\":2000.0,\"TotalCost\":414.0,\"InvoiceDate\":\"11/28/2023 12:00:00AM\",\"InvoiceNumber\":0.0,\"ReadingDateFrom\":null,\"ReadingDateTo\":null}]";
+
+        return $"[{{\"Make\":\"Jaguar\",\"LisencePlate\":\"CBDH 789\",\"TotalMiles\":100.0,\"TotalCost\":20.7,\"InvoiceDate\":\"11/{DateTime.Today.Day}/2023 12:00:00AM\",\"InvoiceNumber\":0.0,\"ReadingDateFrom\":null,\"ReadingDateTo\":null}},{{\"Make\":\"Tesla\",\"LisencePlate\":\"86532 AZE\",\"TotalMiles\":2000.0,\"TotalCost\":414.0,\"InvoiceDate\":\"11/28/2023 12:00:00AM\",\"InvoiceNumber\":0.0,\"ReadingDateFrom\":null,\"ReadingDateTo\":null}}]";
     }
 }
