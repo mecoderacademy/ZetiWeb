@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "+GDRf6h0I4J9oeeghiqWfPRsXL3W3tlYRATk5T8YN+oCItuW2+m5psp8PadpHaaNLZgz6Lo+MOvaUYpW055ZFQ==",
+  "success": true,
+  "projectFilePath": "/Users/mark/Projects/Zeti.Test/Zeti.Services/Zeti.Services.csproj",
+  "expectedPackageFiles": [
+    "/Users/mark/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/Users/mark/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/Users/mark/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/Users/mark/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

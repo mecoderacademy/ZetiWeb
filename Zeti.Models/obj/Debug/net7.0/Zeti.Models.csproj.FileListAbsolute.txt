@@ -1,0 +1,12 @@
+/Users/mark/Projects/Zeti.Test/Zeti.Models/bin/Debug/net7.0/Zeti.Models.deps.json
+/Users/mark/Projects/Zeti.Test/Zeti.Models/bin/Debug/net7.0/Zeti.Models.dll
+/Users/mark/Projects/Zeti.Test/Zeti.Models/bin/Debug/net7.0/Zeti.Models.pdb
+/Users/mark/Projects/Zeti.Test/Zeti.Models/obj/Debug/net7.0/Zeti.Models.csproj.AssemblyReference.cache
+/Users/mark/Projects/Zeti.Test/Zeti.Models/obj/Debug/net7.0/Zeti.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mark/Projects/Zeti.Test/Zeti.Models/obj/Debug/net7.0/Zeti.Models.AssemblyInfoInputs.cache
+/Users/mark/Projects/Zeti.Test/Zeti.Models/obj/Debug/net7.0/Zeti.Models.AssemblyInfo.cs
+/Users/mark/Projects/Zeti.Test/Zeti.Models/obj/Debug/net7.0/Zeti.Models.csproj.CoreCompileInputs.cache
+/Users/mark/Projects/Zeti.Test/Zeti.Models/obj/Debug/net7.0/Zeti.Models.dll
+/Users/mark/Projects/Zeti.Test/Zeti.Models/obj/Debug/net7.0/refint/Zeti.Models.dll
+/Users/mark/Projects/Zeti.Test/Zeti.Models/obj/Debug/net7.0/Zeti.Models.pdb
+/Users/mark/Projects/Zeti.Test/Zeti.Models/obj/Debug/net7.0/ref/Zeti.Models.dll

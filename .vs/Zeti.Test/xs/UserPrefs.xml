@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{6A3A33E8-7FA7-4C31-B531-4142C4BBC4EB}|https">
+  <MonoDevelop.Ide.ItemProperties.Zeti.Test.Tests FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Zeti.Test.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Zeti.Services/VehicleService.cs">
+    <Files>
+      <File FileName="Zeti.Tests/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="Zeti.Services/Class1.cs" Line="7" Column="7" />
+      <File FileName="Zeti.Test/WeatherForecast.cs" Line="1" Column="1" />
+      <File FileName="Zeti.Test/Controllers/WeatherForecastController.cs" Line="25" Column="31" />
+      <File FileName="Zeti.Services/VehicleService.cs" Line="25" Column="31" />
+      <File FileName="Zeti.Test/Program.cs" Line="25" Column="2" />
+      <File FileName="Zeti.Test/appsettings.json" Line="1" Column="1" />
+      <File FileName="Zeti.Models/Class1.cs" Line="3" Column="21" />
+      <File FileName="Zeti.Services/EmptyInterface.cs" Line="6" Column="1" />
+      <File FileName="Zeti.Services/IJourneyService (copy).cs" Line="7" Column="84" />
+      <File FileName="Zeti.Models/EmptyClass.cs" Line="8" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Zeti.Test" expanded="True">
+            <Node name="Zeti.Models" expanded="True" />
+            <Node name="Zeti.Services" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="VehicleService.cs" selected="True" />
+            </Node>
+            <Node name="Zeti.Test" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Zeti.Test.Web.props" />
+</Project>

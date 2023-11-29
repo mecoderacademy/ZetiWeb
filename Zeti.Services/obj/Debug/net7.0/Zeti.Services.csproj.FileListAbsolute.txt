@@ -1,0 +1,15 @@
+/Users/mark/Projects/Zeti.Test/Zeti.Services/bin/Debug/net7.0/Zeti.Services.deps.json
+/Users/mark/Projects/Zeti.Test/Zeti.Services/bin/Debug/net7.0/Zeti.Services.dll
+/Users/mark/Projects/Zeti.Test/Zeti.Services/bin/Debug/net7.0/Zeti.Services.pdb
+/Users/mark/Projects/Zeti.Test/Zeti.Services/bin/Debug/net7.0/Zeti.Models.dll
+/Users/mark/Projects/Zeti.Test/Zeti.Services/bin/Debug/net7.0/Zeti.Models.pdb
+/Users/mark/Projects/Zeti.Test/Zeti.Services/obj/Debug/net7.0/Zeti.Services.csproj.AssemblyReference.cache
+/Users/mark/Projects/Zeti.Test/Zeti.Services/obj/Debug/net7.0/Zeti.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mark/Projects/Zeti.Test/Zeti.Services/obj/Debug/net7.0/Zeti.Services.AssemblyInfoInputs.cache
+/Users/mark/Projects/Zeti.Test/Zeti.Services/obj/Debug/net7.0/Zeti.Services.AssemblyInfo.cs
+/Users/mark/Projects/Zeti.Test/Zeti.Services/obj/Debug/net7.0/Zeti.Services.csproj.CoreCompileInputs.cache
+/Users/mark/Projects/Zeti.Test/Zeti.Services/obj/Debug/net7.0/Zeti.Services.csproj.CopyComplete
+/Users/mark/Projects/Zeti.Test/Zeti.Services/obj/Debug/net7.0/Zeti.Services.dll
+/Users/mark/Projects/Zeti.Test/Zeti.Services/obj/Debug/net7.0/refint/Zeti.Services.dll
+/Users/mark/Projects/Zeti.Test/Zeti.Services/obj/Debug/net7.0/Zeti.Services.pdb
+/Users/mark/Projects/Zeti.Test/Zeti.Services/obj/Debug/net7.0/ref/Zeti.Services.dll
